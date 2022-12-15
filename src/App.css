@@ -1,0 +1,36 @@
+
+.TopPanel {
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  height:80px;
+  background-color: rgb(18, 54, 19);
+}
+
+.LeftPanel {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 50%;    
+  bottom: 0;
+  overflow-y: scroll;
+}
+
+.RightPanel {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  right: 0;   
+  bottom: 0; 
+}
+
+.DirectiveContainer {
+  border:1px solid rgb(202, 189, 189);
+  padding:10px; 
+  margin:10px; 
+} 
+
+.transparent {
+  color: white;
+}
